@@ -3,9 +3,9 @@ def find_element_index(array, value_to_find)
   i = 0 
   while i < array.length do
     if array[i] == value_to_find
-      p i
+      return i
     elsif array[i] != value_to_find
-     p nil
+     return nil
     end 
     i += 1 
   end
