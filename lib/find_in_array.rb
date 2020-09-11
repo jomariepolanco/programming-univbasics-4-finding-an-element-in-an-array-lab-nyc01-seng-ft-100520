@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
       i += 1 
       i
     elsif array[i] != value_to_find 
-      return nil 
+      nil 
     end 
   end
 end
